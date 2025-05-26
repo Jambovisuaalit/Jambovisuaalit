@@ -1,0 +1,10 @@
+import json
+
+def load_team_mapping(league):
+    with open(f"data/team_mappings/{league.lower()}_teams.json", "r") as file:
+        return json.load(file)
+
+nhl_mapping = load_team_mapping("nhl")
+nba_mapping = load_team_mapping("nba")
+nfl_mapping = load_team_mapping("nfl")
+mlb_mapping = load_team_mapping("mlb")
