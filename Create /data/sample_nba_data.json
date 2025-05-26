@@ -1,0 +1,28 @@
+[
+  {
+    "start_time": "5/27 • 3:30AM",
+    "home_team": "OKC",
+    "away_team": "MIN",
+    "markets": [
+      {"type": "Moneyline", "outcome": "OKC", "odds": "-139"},
+      {"type": "Moneyline", "outcome": "MIN", "odds": "+126"},
+      {"type": "Spread", "outcome": "-2.5", "odds": "-120"},
+      {"type": "Spread", "outcome": "+3.5", "odds": "-115"},
+      {"type": "Over/Under", "outcome": "O 218.5", "odds": "-111"},
+      {"type": "Over/Under", "outcome": "U 219.5", "odds": "-115"}
+    ]
+  },
+  {
+    "start_time": "5/28 • 3:00AM",
+    "home_team": "NYK",
+    "away_team": "IND",
+    "markets": [
+      {"type": "Moneyline", "outcome": "NYK", "odds": "+125"},
+      {"type": "Moneyline", "outcome": "IND", "odds": "-138"},
+      {"type": "Spread", "outcome": "+2.5", "odds": "-107"},
+      {"type": "Spread", "outcome": "-1.5", "odds": "-125"},
+      {"type": "Over/Under", "outcome": "O 220.5", "odds": "-118"},
+      {"type": "Over/Under", "outcome": "U 221.5", "odds": "-110"}
+    ]
+  }
+]
