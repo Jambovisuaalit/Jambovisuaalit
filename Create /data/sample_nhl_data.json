@@ -1,0 +1,28 @@
+[
+  {
+    "start_time": "5/27 • 3:00AM",
+    "home_team": "CAR",
+    "away_team": "FLA",
+    "markets": [
+      {"type": "Moneyline", "outcome": "CAR", "odds": "+160"},
+      {"type": "Moneyline", "outcome": "FLA", "odds": "-175"},
+      {"type": "Spread", "outcome": "+1.5", "odds": "-160"},
+      {"type": "Spread", "outcome": "-1.5", "odds": "+155"},
+      {"type": "Over/Under", "outcome": "O 5.5", "odds": "+101"},
+      {"type": "Over/Under", "outcome": "U 5.5", "odds": "-107"}
+    ]
+  },
+  {
+    "start_time": "5/28 • 3:00AM",
+    "home_team": "DAL",
+    "away_team": "EDM",
+    "markets": [
+      {"type": "Moneyline", "outcome": "DAL", "odds": "+143"},
+      {"type": "Moneyline", "outcome": "EDM", "odds": "-158"},
+      {"type": "Spread", "outcome": "+1.5", "odds": "-167"},
+      {"type": "Spread", "outcome": "-1.5", "odds": "+156"},
+      {"type": "Over/Under", "outcome": "O 6", "odds": "-138"},
+      {"type": "Over/Under", "outcome": "U 6.5", "odds": "-119"}
+    ]
+  }
+]
