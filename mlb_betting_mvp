@@ -1,0 +1,21 @@
+mlb_betting_mvp/
+├── data/
+│   ├── mlb_raw_games_2018_2023.csv
+│   ├── mlb_odds_2018_2023.csv   ← real odds from Kaggle
+│   └── mlb_featured_games.csv
+├── models/
+│   ├── xgb_model.joblib
+│   └── calibrator.joblib
+├── scripts/
+│   └── 01_fetch_raw_data.py
+├── notebooks/
+│   └── 02_feature_engineering_eda.ipynb
+├── src/
+│   ├── __init__.py
+│   ├── train.py
+│   ├── predict.py
+│   └── strategy.py
+├── 03_run_backtest.py
+├── config.py
+├── requirements.txt
+└── README.md
