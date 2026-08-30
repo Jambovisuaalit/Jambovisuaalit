@@ -83,8 +83,20 @@ footer{background:var(--ink);color:#aeb8c2;padding:30px 0;font-size:12px}.foot{d
   .introgrid,.timeline,.contactgrid{grid-template-columns:1fr}.themegrid{grid-template-columns:1fr}.theme{min-height:auto;border-right:0;border-bottom:1px solid rgba(255,255,255,.25);gap:80px}.theme:last-child{border-bottom:0}
 }
 @media(max-width:620px){
-  .navin{height:68px}.brand{font-size:14px}.navcta{padding:10px 13px}.hero{min-height:auto}.heroart{min-height:480px}
-  h1{font-size:clamp(58px,19vw,88px)}.proofgrid{grid-template-columns:1fr}.stat{border-right:0;border-bottom:1px solid rgba(255,255,255,.13)!important}
+  html,body{max-width:100%;overflow-x:clip}
+  .navin{height:68px;gap:12px}.brand{font-size:13px;gap:10px;min-width:0;white-space:nowrap}.mark{width:14px;height:14px;flex:0 0 14px}.navcta{padding:10px 13px;font-size:13px;white-space:nowrap}
+  .hero,.herocopy,.heroart{min-width:0;width:100%}
+  .hero{min-height:auto}
+  .herocopy{padding:58px 20px 40px;justify-content:flex-start}
+  .eyebrow{display:grid;grid-template-columns:30px 1fr;align-items:start;gap:10px;font-size:10px;line-height:1.45;letter-spacing:.12em;max-width:100%}
+  .eyebrow:before{width:30px;height:4px;margin-top:5px}
+  h1{max-width:none;font-size:clamp(50px,15vw,64px);line-height:.88;letter-spacing:-.055em;margin:20px 0 22px;overflow-wrap:anywhere}
+  .lead{font-size:18px;line-height:1.48;max-width:none}
+  .actions{display:grid;grid-template-columns:1fr;gap:10px;width:100%;margin-top:28px}
+  .btn{width:100%;justify-content:space-between;padding:15px 18px}
+  .heroart{min-height:420px}
+  .hero-note{left:20px;top:20px;font-size:10px;padding:9px 11px}
+  .proofgrid{grid-template-columns:1fr}.stat{border-right:0;border-bottom:1px solid rgba(255,255,255,.13)!important}
   .metarow{grid-template-columns:1fr;gap:5px}.rolegrid{grid-template-columns:1fr}.step{grid-template-columns:72px 1fr}.foot{flex-direction:column}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.btn:hover{transform:none}}
