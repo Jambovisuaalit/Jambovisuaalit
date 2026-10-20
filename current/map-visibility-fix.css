@@ -1,0 +1,1 @@
+.map-panel:not(.is-loaded) .map-toolbar{display:none!important}.map-panel.is-loaded .map-toolbar{display:flex!important}

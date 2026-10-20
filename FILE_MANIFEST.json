@@ -1,8 +1,9 @@
 {
-  "snapshot": "2026-10-20",
-  "sourceDeployment": "dpl_Hv9WcJc5ttS96ZfRky2cHWDNVFpx",
-  "domain": "www.cozy-studio-punavuori.fi",
-  "count": 25,
+  "date": "2026-10-20",
+  "project": "punavuori-city-studio",
+  "currentDeployment": "dpl_3qpnhJmpa3TeXVAsvzFBcNC5dAjU",
+  "rollbackDeployment": "dpl_Hv9WcJc5ttS96ZfRky2cHWDNVFpx",
+  "site": "https://www.cozy-studio-punavuori.fi/",
   "files": [
     {
       "path": "accessibility-fix.css",
@@ -14,7 +15,7 @@
     },
     {
       "path": "book/index.html",
-      "blobSha": "fa9571477314221b2b4b0b82132c9f0374d33c91"
+      "blobSha": "4d51c85315bf7af47bd091f1ea78e47b3b3ab401"
     },
     {
       "path": "design-v6.css",
@@ -22,11 +23,11 @@
     },
     {
       "path": "en/book/index.html",
-      "blobSha": "528124184a49c1fc92f1ccd1154cb30cd235bca3"
+      "blobSha": "8ec3fa578b3a81e1c81c06ad06ad697a34aa8f71"
     },
     {
       "path": "en/index.html",
-      "blobSha": "cd53f45d757792fa30ca331a3cf2eb8a75423134"
+      "blobSha": "fe52616ac845d5065e244892945fba4497841f59"
     },
     {
       "path": "favicon.svg",
@@ -62,7 +63,7 @@
     },
     {
       "path": "index.html",
-      "blobSha": "fde7f96abb59aaf81988705aee75b4d57b2c30e3"
+      "blobSha": "95e90b13c0a811524fb47150db5b86a9f8b8a3d1"
     },
     {
       "path": "map-visibility-fix.css",
@@ -87,6 +88,18 @@
     {
       "path": "robots.txt",
       "blobSha": "649e63180ab34c9da99af5e145f70dc5262e48a4"
+    },
+    {
+      "path": "site-book.bundle.js",
+      "blobSha": "503150655895f680552e27b1244af9e4471fda2d"
+    },
+    {
+      "path": "site-main.bundle.js",
+      "blobSha": "8bc9c64ed337d505630bc622142f8f542cec0c4e"
+    },
+    {
+      "path": "site.bundle.css",
+      "blobSha": "25eafbc76a3b7f597e5e274eebc41601b568b06a"
     },
     {
       "path": "site.js",

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.cozy-studio-punavuori.fi/sitemap.xml
