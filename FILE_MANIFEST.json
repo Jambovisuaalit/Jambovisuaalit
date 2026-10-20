@@ -1,0 +1,108 @@
+{
+  "snapshot": "2026-10-20",
+  "sourceDeployment": "dpl_Hv9WcJc5ttS96ZfRky2cHWDNVFpx",
+  "domain": "www.cozy-studio-punavuori.fi",
+  "count": 25,
+  "files": [
+    {
+      "path": "accessibility-fix.css",
+      "blobSha": "9c75dfea218f837aef6e9dbd462a66b4571a464d"
+    },
+    {
+      "path": "accessibility-fix.js",
+      "blobSha": "c7a35113f05ba7c9f70c632adb1ce98275031bc9"
+    },
+    {
+      "path": "book/index.html",
+      "blobSha": "fa9571477314221b2b4b0b82132c9f0374d33c91"
+    },
+    {
+      "path": "design-v6.css",
+      "blobSha": "ab1e7efc288b817d309696304d4d8ddae47863d2"
+    },
+    {
+      "path": "en/book/index.html",
+      "blobSha": "528124184a49c1fc92f1ccd1154cb30cd235bca3"
+    },
+    {
+      "path": "en/index.html",
+      "blobSha": "cd53f45d757792fa30ca331a3cf2eb8a75423134"
+    },
+    {
+      "path": "favicon.svg",
+      "blobSha": "1658ed23b9b36c5a2914a1715303eda455437811"
+    },
+    {
+      "path": "images/01_living-room.jpg",
+      "blobSha": "ae86e1db763b5c3d04316b0d947d8f4b42ea48ba"
+    },
+    {
+      "path": "images/02_sleeping-alcove.jpg",
+      "blobSha": "4449c1603625182bbb7c24b1af4a05a050675af8"
+    },
+    {
+      "path": "images/03_kitchen.jpg",
+      "blobSha": "6902c7af58e89b5a3f0d0edd01319a2f88d37c23"
+    },
+    {
+      "path": "images/04_bathroom.jpg",
+      "blobSha": "c98af5ad05b15c3f471cfd2baacc29c2e086b386"
+    },
+    {
+      "path": "images/05_dining.jpg",
+      "blobSha": "f20baf751952438b8452d88b7a655a5eb2086e2d"
+    },
+    {
+      "path": "images/06_living-room-alt.jpg",
+      "blobSha": "566561e927c9d76a16614fad855e7d87ac72da92"
+    },
+    {
+      "path": "images/07_sofa-bed.jpg",
+      "blobSha": "bd2309463ffb33c5e562cfccccfd1df660af77a6"
+    },
+    {
+      "path": "index.html",
+      "blobSha": "fde7f96abb59aaf81988705aee75b4d57b2c30e3"
+    },
+    {
+      "path": "map-visibility-fix.css",
+      "blobSha": "b0ef62f07958ae51516f60d6fc9789d4f03787af"
+    },
+    {
+      "path": "mobile-finish.css",
+      "blobSha": "ec16e01def40ccdf84fc129afc168704f002a9b4"
+    },
+    {
+      "path": "mobile-finish.js",
+      "blobSha": "d1d97224f16879f0e0d70b3a4ac9eed5a6912a90"
+    },
+    {
+      "path": "polish-v7.css",
+      "blobSha": "f4d9e89b518a62e71d301d152a85eb5d5552d5e7"
+    },
+    {
+      "path": "polish-v7.js",
+      "blobSha": "2bb086e9f248f22cb433418c79bc24b2808df3f6"
+    },
+    {
+      "path": "robots.txt",
+      "blobSha": "649e63180ab34c9da99af5e145f70dc5262e48a4"
+    },
+    {
+      "path": "site.js",
+      "blobSha": "63d7368edac36e304ec6e770644786547350b8ae"
+    },
+    {
+      "path": "sitemap.xml",
+      "blobSha": "2d07e319799dc577a4206f8776c5dac08ae3654f"
+    },
+    {
+      "path": "styles.css",
+      "blobSha": "d4a00a99206c4835b76856006280335a41b0398f"
+    },
+    {
+      "path": "vercel.json",
+      "blobSha": "fcc7dbf11227d3c95099cc0b87ca90bdfa762ffc"
+    }
+  ]
+}

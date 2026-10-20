@@ -1,0 +1,40 @@
+
+/* Mobile layout repair, 2026-10-20. Preserve approved text and images. */
+@media (max-width:700px){
+  .site-header,.site-header.is-scrolled{
+    background:#f8f6f0!important;
+    -webkit-backdrop-filter:none!important;
+    backdrop-filter:none!important;
+    box-shadow:0 1px 0 rgba(31,55,45,.13)!important;
+    isolation:isolate;
+  }
+  html{scroll-padding-top:calc(88px + env(safe-area-inset-top,0px))}
+  [id]{scroll-margin-top:calc(88px + env(safe-area-inset-top,0px))}
+  .mobile-bar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:nowrap;
+    gap:7px;
+    min-height:60px!important;
+    padding:7px max(12px,env(safe-area-inset-right,0px)) max(8px,env(safe-area-inset-bottom,0px)) max(12px,env(safe-area-inset-left,0px))!important;
+    transition:opacity .18s ease,visibility .18s ease,transform .18s ease;
+  }
+  .mobile-bar a:not(.btn-pill){font-size:clamp(9px,2.4vw,12px);min-width:0;white-space:nowrap;min-height:42px}
+  .mobile-bar .btn-pill{min-height:42px;max-width:none;flex:0 0 auto;font-size:clamp(10px,2.65vw,13px);padding:9px clamp(10px,2.5vw,16px);gap:6px}
+  .mobile-bar .btn-pill .arrow{flex:0 0 auto}
+  body.mobile-footer-visible .mobile-bar{opacity:0!important;visibility:hidden!important;pointer-events:none!important;transform:translateY(110%)!important}
+  /* The map tools must never overlay the decorative map placeholder. */
+  .map-panel:not(.is-loaded) .map-toolbar{display:none!important}
+  .map-panel.is-loaded .map-toolbar{display:flex!important;flex-wrap:wrap;align-items:center;justify-content:center;top:auto!important;bottom:12px!important;left:10px!important;right:10px!important;gap:8px}
+  .map-toolbar a,.map-toolbar button{font-size:12px!important;min-height:42px;padding:10px 13px!important;white-space:nowrap;max-width:100%}
+  .gallery-view-buttons{width:100%;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);border-radius:14px}
+  .gallery-view-button{white-space:normal!important;min-height:44px;line-height:1.2;padding:10px 8px!important}
+  .gallery-view-button .ui-icon{flex-shrink:0}
+  .photo-grid .photo-tile{min-width:0}
+  .photo-grid .photo-tile .tile-caption{font-size:clamp(11px,2.6vw,13px);line-height:1.25;max-width:calc(100% - 44px);overflow-wrap:anywhere}
+}
+@media(max-width:350px){
+  .mobile-bar a:not(.btn-pill):nth-of-type(3){display:none}
+  .map-toolbar a,.map-toolbar button{font-size:11px!important;padding:9px 11px!important}
+}

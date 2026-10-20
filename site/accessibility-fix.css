@@ -1,0 +1,7 @@
+
+.gallery .eyebrow,.location-copy>.eyebrow,.faq-heading .eyebrow,.section-lead .eyebrow,.section-heading .eyebrow,.booking-landing-head .eyebrow{color:#765435}
+.hero .eyebrow,.amenities .eyebrow,.last-cta .eyebrow,.site-footer .eyebrow{color:#e7cbaa}
+.site-header .lang-switch a,.lang-switch>a{opacity:1!important;color:#252b29}
+.lang-switch a[aria-current=page]{text-decoration:underline;text-underline-offset:.2em;font-weight:800}
+:where(a,button,[tabindex]):focus-visible{outline:3px solid #765435;outline-offset:3px}
+@media(max-width:700px){body{padding-bottom:calc(88px + env(safe-area-inset-bottom,0px))}html{scroll-padding-bottom:calc(94px + env(safe-area-inset-bottom,0px))}body.hero-primary-visible .mobile-bar{opacity:0!important;visibility:hidden!important;pointer-events:none!important;transform:translateY(110%)!important}}
